@@ -21,6 +21,8 @@ int main() {
     
     print_board();
     place_piece();
+    cout << endl;
+    print_board();
     return 0;
 }
 
