@@ -126,7 +126,7 @@ void place_piece() {
     else {
         if (location == 1) {
             if (b_arr[0][0] == ' ') {
-                b_arr[0][0] = 'X';
+                b_arr[0][0] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -134,7 +134,7 @@ void place_piece() {
         }
         else if (location == 2){
             if (b_arr[0][1] == ' ') {
-                b_arr[0][1] = 'X';
+                b_arr[0][1] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -142,7 +142,7 @@ void place_piece() {
         }
         else if (location == 3){
             if (b_arr[0][2] == ' ') {
-                b_arr[0][2] = 'X';
+                b_arr[0][2] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -150,7 +150,7 @@ void place_piece() {
         }
         else if (location == 4){
             if (b_arr[1][0] == ' ') {
-                b_arr[1][0] = 'X';
+                b_arr[1][0] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -158,7 +158,7 @@ void place_piece() {
         }
         else if (location == 5){
             if (b_arr[1][1] == ' ') {
-                b_arr[1][1] = 'X';
+                b_arr[1][1] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -166,7 +166,7 @@ void place_piece() {
         }
         else if (location == 6){
             if (b_arr[1][2] == ' ') {
-                b_arr[1][2] = 'X';
+                b_arr[1][2] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -174,7 +174,7 @@ void place_piece() {
         }
         else if (location == 7){
             if (b_arr[2][0] == ' ') {
-                b_arr[2][0] = 'X';
+                b_arr[2][0] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -182,7 +182,7 @@ void place_piece() {
         }
         else if (location == 8){
             if (b_arr[2][1] == ' ') {
-                b_arr[2][1] = 'X';
+                b_arr[2][1] = 'O';
             }
             else {
                 cout << "Invalid Location";
@@ -190,7 +190,7 @@ void place_piece() {
         }
         else {
             if (b_arr[2][2] == ' ') {
-                b_arr[2][2] = 'X';
+                b_arr[2][2] = 'O';
             }
             else {
                 cout << "Invalid Location";
